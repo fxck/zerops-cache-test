@@ -7,6 +7,8 @@ zerops:
         - npm run build
       deployFiles:
         - dist/recipe-angular-static/browser/~
+      cache:
+        - node_modules
     run:
       base: static
       routing:
